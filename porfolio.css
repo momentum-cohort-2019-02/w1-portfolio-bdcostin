@@ -1,0 +1,359 @@
+* {
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-right: ;
+    padding: 0;
+}
+
+* {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a {
+    color: black;
+    font-family: "Sort Mill Goudy";
+    text-decoration: none;
+}
+
+/*  Flex for nav bar */
+@media all and (max-width: 400px) {
+  .container > li {
+    flex-basis: 100%;
+  }
+
+}
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FFFF;
+    padding: 50px 20px 20px 20px;
+    border: 5px solid black;
+  }
+/* Sticky nav bar */
+/* Clear formatting*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a max width to the content*/
+  
+  .wrapper {
+    max-width: 100%;
+    width:80%;
+    height:25px;
+    margin: 0 auto;
+    background-color: #FFFF;
+    border-block-end: 5px solid black; 
+    writing-mode: horizontal-tb;
+  }
+  .parent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    
+  }
+  .navbar {
+    height:100%;
+    background-color: #FFFF;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 15%;        
+    margin-left: 0px;
+    padding: 10px;
+  }
+
+  .menu {
+    display: flex;
+  }
+  .menu ul {
+    flex: 1;
+    list-style: none;
+  }
+  .menu li {
+    flex: 1;
+    background-color: #FFFF;
+    color:  black;
+    font-size: 16px;
+    list-style-type: none;
+    padding-top: 20px;
+  }
+
+
+.dot_main {
+    color: #EE7204;
+    /* margin-left: -.09%;
+    margin-right: 2%;
+    margin-top: -1%; */
+}
+
+
+.headers {
+    color: black;
+    font-family: "Sort Mill Goudy";
+    font-size: 40px;
+    width: 100%;
+}
+
+.section1_header {
+    color: black;
+    font-family: "Sort Mill Goudy";
+    font-size: 40px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.menu_background {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: spacey-evenly;
+    width: 100%;
+}
+
+.menu {
+    font-family: "Sort Mill Goudy";
+}
+
+@media (min-width: 900px) {
+    .section_1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.section_1 {
+    max-width: 1300px;
+    display: flex;
+    margin: auto 15% auto auto;
+}
+
+#about_1 {
+    font-family: "Source Sans Pro";
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#about_2 {
+    font-family: "Source Sans Pro";
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#me {
+    width: 250px;
+    height: 400px;
+}
+
+.subsection_1_a {
+    flex: 0 2 10%;
+}
+
+.subsection_1_b {
+    flex: 3 0 70%;
+    margin-left: 20px;
+}
+
+.subsection_1_c {
+    flex: 1;
+}
+
+.list_header {
+    margin-left: -20px;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+
+.skills_list {
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: center;
+    flex-basis: 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#know {
+    flex:1;
+    padding: 20px;
+}
+
+#learning {
+    flex: 1;
+    padding: 20px;
+}
+
+#learning_2 {
+    margin-left: 20px;
+}
+
+#curious {
+    flex: 1;
+    padding: 20px;
+}
+
+#resume {
+    flex: 1;
+    padding: 20px;
+}
+
+.section_2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-basis: 90%;
+
+
+}
+
+.section_2_header {
+    color: black;
+    font-family: "Sort Mill Goudy";
+    font-size: 40px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#project_image1 {
+    flex: 1;
+    height: 100%;
+    width: 300px;
+}
+
+#project_image2 {
+    flex: 1;
+    height: 100%;
+    width: 300px;
+}
+
+#projects {
+    display: flex;
+    font-family: "Source Sans Pro";
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.project_content {
+    flex: 1;
+}
+
+.project_skills {
+    flex: 1;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-left: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.project_skills1 {
+    padding-left: 20px;
+}
+
+.section_3 {
+    display: flex;
+}
+
+.section_3_header {
+    color: black;
+    font-family: "Sort Mill Goudy";
+    font-size: 40px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.section_4_header {
+    color: black;
+    font-family: "Sort Mill Goudy";
+    font-size: 40px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+#last_image {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 0;
+}
+
+#footer_box {
+    margin-top: 0;
+    color: black;
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    background-color: black; 
+}
+
+/* I need this to create a menu bar that scrolls with the page
+
+html, body {
+	height: 4000px;
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+  position: fixed;
+    width: 100%;
+}
+
+#body_div {
+	top: 0;
+	position: relative;
+    height: 200px;
+    background-color: green;
+}
+
+#banner {
+	width: 100%;
+	height: 273px;
+    background-color: gray;
+	overflow: hidden;
+}
+
+#nav_bar {
+	border: 0;
+	background-color: #202020;
+	border-radius: 0px;
+	margin-bottom: 0;
+    height: 30px;
+}
+
+.nav_links {
+    margin: 0;
+}
+
+.nav_links li {
+	display: inline-block;
+    margin-top: 4px;
+}
+.nav_links li a {
+	padding: 0 15.5px;
+	color: #3498db;
+	text-decoration: none;
+} */
